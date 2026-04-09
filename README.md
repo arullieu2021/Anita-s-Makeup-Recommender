@@ -24,14 +24,14 @@ The key insight is treating **skin tone as an intermediate representation** — 
 ## Repository Structure
 
 ```
-├── 1_Data_Cleaning_and_Preparation.ipynb     # Kaggle dataset download & catalog cleaning
-├── 2_Face_Segmentation.ipynb                 # SAM3 facial region segmentation & hex extraction
+├── 1_Data_Cleaning_and_preparation.ipynb     # Kaggle dataset download & catalog cleaning
+├── 2_Face_segmentation.py                    # SAM3 facial region segmentation & hex extraction
 ├── 3_Catalog_EDA.ipynb                       # Exploratory analysis of the product catalog
-├── 4_Pinterest_Web_Scraping.ipynb            # Playwright-based Pinterest image scraper
-├── 4_1_Pinterest_EDA.ipynb                   # Skin tone distribution in the training dataset
-├── 5_ResNet18_Classifier.ipynb               # Transfer learning makeup style classifier
-├── 6_Recommender_Gradio.ipynb                # End-to-end pipeline + Gradio UI (main app)
-├── 7_Survey_Results.ipynb                    # User evaluation analysis (n=30)
+├── 4_1_Pinterest_EDA_.py                     # Skin tone distribution in the training dataset
+├── 4_Pinterest_Web_Scrapping.py              # Playwright-based Pinterest image scraper
+├── 5_ResNet_18.ipynb                         # Transfer learning makeup style classifier
+├── 6_Recommender_Gradio.py                   # End-to-end pipeline + Gradio UI (main app)
+├── 7_Survey_Results_.ipynb                   # User evaluation analysis (n=30)
 ├── products_catalog.csv                      # Cleaned cosmetic product catalog (630 products)
 ├── makeup_classifier.pth                     # Trained ResNet-18 checkpoint (see link below)
 └── README.md
