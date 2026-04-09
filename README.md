@@ -4,7 +4,7 @@
 **Institution:** IE University — School of Human Sciences & Technology  
 **Degree:** Dual Degree in Business Administration & Data and Business Analytics  
 **Supervisor:** Prof. Luciano Dyballa  
-**Date:** March 2026  
+**Date:** April 2026  
 
 ---
 
