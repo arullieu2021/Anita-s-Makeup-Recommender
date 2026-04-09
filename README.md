@@ -24,22 +24,16 @@ The key insight is treating **skin tone as an intermediate representation** — 
 ## 🗂️ Repository Structure
  
 ```
-├── notebooks/
-│   ├── 1_Data_Cleaning_and_Preparation.ipynb     # Kaggle dataset download & catalog cleaning
-│   ├── 2_Face_Segmentation.ipynb                 # SAM3 facial region segmentation & hex extraction
-│   ├── 3_Catalog_EDA.ipynb                       # Exploratory analysis of the product catalog
-│   ├── 4_Pinterest_Web_Scraping.ipynb            # Playwright-based Pinterest image scraper
-│   ├── 4_1_Pinterest_EDA.ipynb                   # Skin tone distribution in the training dataset
-│   ├── 5_ResNet18_Classifier.ipynb               # Transfer learning makeup style classifier
-│   ├── 6_Recommender_Gradio.ipynb                # End-to-end pipeline + Gradio UI (main app)
-│   └── 7_Survey_Results.ipynb                    # User evaluation analysis (n=30)
-│
-├── data/
-│   └── products_catalog.csv                      # Cleaned cosmetic product catalog (630 products)
-│
-├── models/
-│   └── makeup_classifier.pth                     # Trained ResNet-18 checkpoint
-│
+├── 1_Data_Cleaning_and_Preparation.ipynb     # Kaggle dataset download & catalog cleaning
+├── 2_Face_Segmentation.ipynb                 # SAM3 facial region segmentation & hex extraction
+├── 3_Catalog_EDA.ipynb                       # Exploratory analysis of the product catalog
+├── 4_Pinterest_Web_Scraping.ipynb            # Playwright-based Pinterest image scraper
+├── 4_1_Pinterest_EDA.ipynb                   # Skin tone distribution in the training dataset
+├── 5_ResNet18_Classifier.ipynb               # Transfer learning makeup style classifier
+├── 6_Recommender_Gradio.ipynb                # End-to-end pipeline + Gradio UI (main app)
+├── 7_Survey_Results.ipynb                    # User evaluation analysis (n=30)
+├── products_catalog.csv                      # Cleaned cosmetic product catalog (630 products)
+├── makeup_classifier.pth                     # Trained ResNet-18 checkpoint
 └── README.md
 ```
  
